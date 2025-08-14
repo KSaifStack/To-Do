@@ -453,7 +453,7 @@ public class TaskUi extends Application {
             } else if (secondsUntilDue <= 60 * 60) {
                 stage = "1hr";
                 warning.setText("1 hour!");
-            } else if (secondsUntilDue <= 24 * 60 * 60) {
+            } else if (secondsUntilDue <= 5 * 60 * 60) {
                 stage = "5hr";
                 warning.setText("5 hours");
             } else if (secondsUntilDue <= 24 * 60 * 60) {
